@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld' //路径，@代表src目录
 import demo1 from '@/pages/demo1'
+import demo2 from '@/pages/demo2'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/demo1',
       name: 'demo1',
       component: demo1
+    },
+    {
+      path: '/demo2',
+      name: 'demo2',
+      component: demo2
     }
   ]
 })
