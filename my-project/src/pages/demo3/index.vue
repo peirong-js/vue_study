@@ -12,12 +12,12 @@
 
 		<div>------------------------------------------</div>
 		<!-- 指令v-html：把绑定的标签变成div的子元素-->
-		<div style="font-size: 12px;color:gray">指令v-html：把绑定的标签变成div的子元素</div>
+		<div class="describe">指令v-html：把绑定的标签变成div的子元素</div>
 		<div v-html="rawHtml"></div>
 		<div>------------------------------------------</div>
-		<div style="font-size: 12px;color:gray">指令v-bind:class：动态绑定元素class属性</div>
+		<div class="describe">指令v-bind:class：动态绑定元素class属性</div>
 		<div v-bind:class="red"></div>
-		<div style="font-size: 12px;color:gray">指令v-on：绑定事件</div>
+		<div class="describe">指令v-on：绑定事件</div>
 		<div v-on:click="say('hi')">点击我</div>
 
 		<div>------------------------------------------</div>
@@ -61,3 +61,10 @@
 		}
 	}
 </script>
+
+<style type="text/css">
+	.describe{
+    font-size: 12px;
+    color:gray;
+  }
+</style>
