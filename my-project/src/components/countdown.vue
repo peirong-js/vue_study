@@ -16,7 +16,7 @@
 				vm.time--;
 				if(vm.time == 0){					
 					clearInterval(t);
-					vm.$emit("end");
+					vm.$emit("end");  //结束时触发自定义end事件
 				}
 			},1000)
 		},

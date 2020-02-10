@@ -4,7 +4,7 @@
 		<div>--------------------------------</div>
 		<div class="describe">
 			- 组件写到components文件夹下<br>
-			- 组件基本要素：props 、$emit等<br>
+			- 组件基本要素：props（接收属性值） 、$emit（自定义触发事件）等<br>
 			- 通过import将组件引入到页面中<br>
 			- 通过components注册组件<br>
 		</div>
